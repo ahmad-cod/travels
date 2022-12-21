@@ -5,7 +5,7 @@ export default function Card(props) {
     // console.log('props', props)
     return (
         <section className='card'>
-            <img src={imageUrl} width='200px' className='card--image' />
+            <img src={imageUrl} className='card--image' />
             <div className='card--details'>
                 <div className='location'>
                     <span className='location--name'><i className='fa fa-map-marker'></i>{location}</span>

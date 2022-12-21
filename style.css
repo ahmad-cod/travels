@@ -49,7 +49,7 @@ section {
     column-gap: 19px;
 }
 .card--image {
-    width: 140px;
+    width: 125px;
     height: 168px;
     border-radius: 5px;   
 }
@@ -84,8 +84,18 @@ section {
     line-height: 15.4px;
 }
 
-@media (max-width: '680px') {
+@media screen and (max-width: 680px) {
     #root {
         margin: 0;
+    }
+    section {
+        padding: 12px 25px;
+    }
+    .card {
+        flex-direction: column;
+    }
+    .card--image {
+        width: 100%;
+        height: auto;
     }
 }
